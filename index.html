@@ -8,15 +8,29 @@
     <title>Password</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="username-email-container">
       <div class="inner-container">
-        <p>Password validation</p>
-        <form class="password-form">
+        <p>Username and email validation</p>
+        <form class="username-email-form">
           <div class="input-container">
             <input type="text" id="username" placeholder="username" />
           </div>
           <div class="input-container">
             <input type="email" id="email" placeholder="email" />
+          </div>
+          <div class="submit-container">
+            <input type="submit" value="submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="container" id="password-container" style="display: none">
+      <div class="inner-container">
+        <p>Password validation</p>
+        <form class="password-form">
+          <div class="input-container">
+            <input type="password" id="password" placeholder="password" />
           </div>
           <div class="submit-container">
             <input type="submit" value="submit" />
