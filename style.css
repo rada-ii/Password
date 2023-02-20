@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.inner-container {
+  background-color: #6bbdab;
+  border: 2px solid #241b1b;
+  border-radius: 10px;
+  padding: 0px 20px 20px;
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.password-form {
+  margin: 0;
+}
+
+.submit-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+body {
+  background: linear-gradient(to left, #04214b, #c16a82, #86baef);
+  background-size: 400% 400%;
+  animation: gradient 7s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.image {
+  background-image: url("./img/confetti-28.gif");
+  background-size: contain;
+}
+
+.success {
+  border: 2px solid #32cd32;
+}
+.error {
+  border: 2px solid #dc143c;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+  /* font-weight: bold; */
+}
