@@ -1,7 +1,7 @@
 check out live:
 https://rada-ii.github.io/Password/
 
-This a simple web app that simulates password login.
+This is a simple web app that simulates password login.
 
 # Technologies used: Js, Vanilla Css.
 
