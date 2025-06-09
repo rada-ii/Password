@@ -4,7 +4,9 @@ A simple web application for username, email, and password validation. Built wit
 
 ## 🚀 Live Demo
 
-**🌐 [View Live Application](https://rada-ii.github.io/Password/)**
+<a href="https://rada-ii.github.io/Password/" target="_blank" rel="noopener noreferrer">
+    👉 View Live Application
+</a>
 
 ## ✨ Features
 
